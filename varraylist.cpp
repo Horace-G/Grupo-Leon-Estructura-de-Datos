@@ -157,7 +157,7 @@ delete[] data;
 
       for(int i = 0; i < size() ; i++){ // Recorre el arreglo y si encuentra el objeto e en el arreglo
 
-        if(data[i]->(E)){ // asigna el índice de la iteración a la variable posición si existe e
+        if(data[i]->equals(E)){ // asigna el índice de la iteración a la variable posición si existe e
 
           posicion = i; // en el arreglo
 
